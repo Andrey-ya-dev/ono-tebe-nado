@@ -75,15 +75,15 @@ address a {
 
 .cover__title {
   position: relative;
-  text-transform: uppercase;
+  z-index: 4;
+  display: grid;
+  gap: 20px;
   padding: 165px 50px 131px 50px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  display: grid;
-  gap: 20px;
   letter-spacing: 30px;
-  z-index: 4;
+  text-transform: uppercase;
 }
 
 .aligned-text,
@@ -119,13 +119,13 @@ address a {
 
 .cover__description {
   position: relative;
+  z-index: 4;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 29px;
   margin: 4px 50px 0 78px;
   padding-bottom: 51px;
-  z-index: 4;
 }
 
 .cover__description-text {
@@ -199,18 +199,18 @@ address a {
 }
 
 .card__title {
+  z-index: 4;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
   text-decoration: underline;
-  z-index: 4;
   text-transform: uppercase;
 }
 
 .card__text {
+  z-index: 4;
   font-size: 20px;
   line-height: 24px;
-  z-index: 4;
 }
 
 .card_type_film {
